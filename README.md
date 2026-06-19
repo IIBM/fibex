@@ -1,2 +1,2 @@
-# fibex
-FIUBA Brain Explorer
+# FIBEX
+**FI**UBA **B**rain **EX**plorer

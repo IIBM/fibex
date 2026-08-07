@@ -1,0 +1,28 @@
+# KiCad (v10)
+
+# Project-local settings (per-user UI state)
+*.kicad_prl
+
+# Backups and autosave
+*-backups/
+*.-bak
+*.bak
+*.bck
+_auto*
+
+# Lock files
+*.lck
+
+# Caches
+fp-info-cache
+
+# Rescue/cache symbol libraries
+*-rescue.kicad_sym
+*-rescue.lib
+*-cache.lib
+
+# Autorouter exports
+*.dsn
+
+# Editor swap files
+*.swp

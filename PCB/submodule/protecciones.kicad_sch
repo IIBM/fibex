@@ -1172,7 +1172,7 @@
 	)
 	(wire
 		(pts
-			(xy 25.4 71.12) (xy 29.21 71.12)
+			(xy 29.21 29.21) (xy 33.02 29.21)
 		)
 		(stroke
 			(width 0)
@@ -2312,7 +2312,7 @@
 	)
 	(wire
 		(pts
-			(xy 25.4 74.93) (xy 29.21 74.93)
+			(xy 29.21 33.02) (xy 33.02 33.02)
 		)
 		(stroke
 			(width 0)
@@ -2461,7 +2461,7 @@
 		(uuid "38ac11d2-02d9-45c0-91b7-6c724964d42f")
 	)
 	(label "BIAS_ELEC"
-		(at 25.4 71.12 180)
+		(at 29.21 29.21 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2521,7 +2521,7 @@
 		(uuid "5b52e2cc-e75a-4f20-b3f3-a8d3b413bb0c")
 	)
 	(label "IN_ELEC"
-		(at 25.4 74.93 180)
+		(at 29.21 33.02 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2836,7 +2836,7 @@
 	)
 	(hierarchical_label "IN_ELEC"
 		(shape input)
-		(at 29.21 74.93 0)
+		(at 33.02 33.02 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2902,7 +2902,7 @@
 	)
 	(hierarchical_label "BIAS_ELEC"
 		(shape input)
-		(at 29.21 71.12 0)
+		(at 33.02 29.21 0)
 		(effects
 			(font
 				(size 1.27 1.27)

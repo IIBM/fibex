@@ -4693,7 +4693,7 @@
 		(uuid "5a81ab41-2aaf-4fdb-9c8b-e3cd54c1e68a")
 	)
 	(label "BIAS_SHD"
-		(at 66.04 59.69 0)
+		(at 66.04 60.96 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4703,7 +4703,7 @@
 		(uuid "61a5d39d-e189-45d2-8108-c20fce601b3f")
 	)
 	(label "BIAS_SHD"
-		(at 35.56 59.69 0)
+		(at 35.56 60.96 0)
 		(effects
 			(font
 				(size 1.27 1.27)

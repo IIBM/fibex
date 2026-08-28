@@ -3,4 +3,5 @@
   (lib (name "ADS1299")(type "KiCad")(uri "${KIPRJMOD}/../libs/symbols/ADS1299_8C.kicad_sym")(options "")(descr ""))
   (lib (name "TPD4")(type "KiCad")(uri "${KIPRJMOD}/../libs/symbols/TPD4E001_DPKT.kicad_sym")(options "")(descr ""))
   (lib (name "TPD2")(type "KiCad")(uri "${KIPRJMOD}/../libs/symbols/TPD2E001_DRLR.kicad_sym")(options "")(descr ""))
+  (lib (name "Power_LDO")(type "KiCad")(uri "${KIPRJMOD}/../libs/symbols/Power_LDO.kicad_sym")(options "")(descr ""))
 )

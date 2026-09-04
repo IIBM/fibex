@@ -2390,16 +2390,6 @@
 		)
 		(uuid "3b965918-083b-4653-879b-9452fe090241")
 	)
-	(label "BIAS_DRV"
-		(at 173.99 77.47 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "44d039a2-73f4-4f3d-a23e-bb928fd9e1d4")
-	)
 	(label "BIAS_SHD"
 		(at 41.91 88.9 180)
 		(effects
@@ -2409,16 +2399,6 @@
 			(justify right bottom)
 		)
 		(uuid "53b7af99-96ee-4e97-b212-301b82689ea3")
-	)
-	(label "BIAS_ELEC"
-		(at 242.57 77.47 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "5b52e2cc-e75a-4f20-b3f3-a8d3b413bb0c")
 	)
 	(label "IN_ELEC"
 		(at 35.56 35.56 0)
@@ -2490,6 +2470,16 @@
 		)
 		(uuid "7e16c177-47f8-41c1-8f82-53b01e6b2c7d")
 	)
+	(label "BIAS_DRV"
+		(at 242.57 77.47 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "8a958015-25b8-4975-bc1e-a969c6634791")
+	)
 	(label "IN1+"
 		(at 139.7 39.37 0)
 		(effects
@@ -2509,6 +2499,16 @@
 			(justify left bottom)
 		)
 		(uuid "9c2e1883-06c1-4646-9259-a9670f37df43")
+	)
+	(label "BIAS_ELEC"
+		(at 173.99 77.47 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "9d1cbad9-5c4f-4cec-9693-c72560b1b45b")
 	)
 	(label "IN_REF"
 		(at 242.57 73.66 0)

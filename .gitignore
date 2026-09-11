@@ -9,6 +9,8 @@
 *.bak
 *.bck
 _auto*
+*auto_saved*
+*.history/
 
 # Lock files
 *.lck

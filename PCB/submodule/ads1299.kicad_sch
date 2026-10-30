@@ -1577,7 +1577,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Connector:Conn_01x02_Pin"
+		(symbol "Connector:Conn_01x01_Pin"
 			(pin_names
 				(offset 1.016)
 				(hide yes)
@@ -1597,8 +1597,8 @@
 					)
 				)
 			)
-			(property "Value" "Conn_01x02_Pin"
-				(at 0 -5.08 0)
+			(property "Value" "Conn_01x01_Pin"
+				(at 0 -2.54 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
@@ -1629,7 +1629,7 @@
 					)
 				)
 			)
-			(property "Description" "Generic connector, single row, 01x02, script generated"
+			(property "Description" "Generic connector, single row, 01x01, script generated"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1672,21 +1672,10 @@
 					)
 				)
 			)
-			(symbol "Conn_01x02_Pin_1_1"
+			(symbol "Conn_01x01_Pin_1_1"
 				(rectangle
 					(start 0.8636 0.127)
 					(end 0 -0.127)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(rectangle
-					(start 0.8636 -2.413)
-					(end 0 -2.667)
 					(stroke
 						(width 0.1524)
 						(type default)
@@ -1707,18 +1696,6 @@
 						(type none)
 					)
 				)
-				(polyline
-					(pts
-						(xy 1.27 -2.54) (xy 0.8636 -2.54)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
 				(pin passive line
 					(at 5.08 0 180)
 					(length 3.81)
@@ -1730,24 +1707,6 @@
 						)
 					)
 					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 5.08 -2.54 180)
-					(length 3.81)
-					(name "Pin_2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -4059,16 +4018,6 @@
 	)
 	(wire
 		(pts
-			(xy 218.44 45.72) (xy 218.44 52.07)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1303a7fa-dfd9-404c-8cea-bb947344e0b9")
-	)
-	(wire
-		(pts
 			(xy 138.43 115.57) (xy 139.7 115.57)
 		)
 		(stroke
@@ -4096,16 +4045,6 @@
 			(type default)
 		)
 		(uuid "143daa87-e3c7-4a3f-9f76-e89970a59242")
-	)
-	(wire
-		(pts
-			(xy 210.82 52.07) (xy 218.44 52.07)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "14bc607a-e12d-4662-960c-fc9015f7266e")
 	)
 	(wire
 		(pts
@@ -5229,7 +5168,7 @@
 	)
 	(wire
 		(pts
-			(xy 215.9 45.72) (xy 215.9 46.99)
+			(xy 217.17 45.72) (xy 217.17 46.99)
 		)
 		(stroke
 			(width 0)
@@ -5489,6 +5428,16 @@
 	)
 	(wire
 		(pts
+			(xy 210.82 52.07) (xy 234.95 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b5a750b6-434c-4599-b196-9341fd4784f5")
+	)
+	(wire
+		(pts
 			(xy 242.57 34.29) (xy 245.11 34.29)
 		)
 		(stroke
@@ -5609,7 +5558,7 @@
 	)
 	(wire
 		(pts
-			(xy 215.9 46.99) (xy 210.82 46.99)
+			(xy 217.17 46.99) (xy 210.82 46.99)
 		)
 		(stroke
 			(width 0)
@@ -9205,6 +9154,86 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:Conn_01x01_Pin")
+		(at 240.03 52.07 0)
+		(mirror y)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "4550f76d-5e82-4229-8922-15b9f18730e3")
+		(property "Reference" "J20"
+			(at 241.3 54.864 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Conn_01x01_Pin"
+			(at 238.1251 50.8 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Connector_Wire:SolderWirePad_1x01_SMD_1x2mm"
+			(at 240.03 52.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 240.03 52.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x01, script generated"
+			(at 240.03 52.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "93620460-cc38-47a9-935c-a2e4e1ea0b9b")
+		)
+		(instances
+			(project "submodule"
+				(path "/94d66193-1070-4f09-99d4-9d3e064fcff0/7784ec3f-fec1-46fc-991f-cab1d6d70b75"
+					(reference "J20")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 111.76 104.14 0)
 		(unit 1)
@@ -10310,8 +10339,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:Conn_01x02_Pin")
-		(at 215.9 40.64 90)
+		(lib_id "Connector:Conn_01x01_Pin")
+		(at 217.17 40.64 90)
 		(mirror x)
 		(unit 1)
 		(body_style 1)
@@ -10322,7 +10351,7 @@
 		(dnp no)
 		(uuid "87a7353f-d24f-409d-8d5f-6114818608d0")
 		(property "Reference" "J19"
-			(at 218.694 39.37 90)
+			(at 219.964 39.37 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10332,8 +10361,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "Conn_01x02_Pin"
-			(at 214.63 42.5449 90)
+		(property "Value" "Conn_01x01_Pin"
+			(at 215.9 42.5449 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10344,8 +10373,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_2.0x2.0mm"
-			(at 215.9 40.64 0)
+		(property "Footprint" "Connector_Wire:SolderWirePad_1x01_SMD_1x2mm"
+			(at 217.17 40.64 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10356,7 +10385,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 215.9 40.64 0)
+			(at 217.17 40.64 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10366,8 +10395,8 @@
 				)
 			)
 		)
-		(property "Description" "Generic connector, single row, 01x02, script generated"
-			(at 215.9 40.64 0)
+		(property "Description" "Generic connector, single row, 01x01, script generated"
+			(at 217.17 40.64 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10379,9 +10408,6 @@
 		)
 		(pin "1"
 			(uuid "3a6fbf7b-cc67-4652-b88e-53cc6dc7e4f1")
-		)
-		(pin "2"
-			(uuid "7e1a8b44-3bb4-47dd-9a88-4c7925ce4678")
 		)
 		(instances
 			(project "submodule"

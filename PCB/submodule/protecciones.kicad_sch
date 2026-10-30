@@ -5873,7 +5873,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "FIBEX:DRL5"
+		(property "Footprint" "FIBEX:DPK6"
 			(at 212.598 110.49 0)
 			(hide yes)
 			(show_name no)
@@ -6381,7 +6381,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "FIBEX:DRL5"
+		(property "Footprint" "FIBEX:DPK6"
 			(at 116.078 110.49 0)
 			(hide yes)
 			(show_name no)
@@ -7132,7 +7132,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "FIBEX:DRL5"
+		(property "Footprint" "FIBEX:DPK6"
 			(at 109.22 36.83 0)
 			(hide yes)
 			(show_name no)
@@ -7626,7 +7626,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "FIBEX:DRL5"
+		(property "Footprint" "FIBEX:DPK6"
 			(at 109.22 158.75 0)
 			(hide yes)
 			(show_name no)
@@ -8278,7 +8278,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "FIBEX:DRL5"
+		(property "Footprint" "FIBEX:DPK6"
 			(at 205.74 36.83 0)
 			(hide yes)
 			(show_name no)

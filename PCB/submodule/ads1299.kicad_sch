@@ -3511,16 +3511,6 @@
 		)
 		(uuid "280d9635-7d5d-4739-b833-bc8f3a15b934")
 	)
-	(text "Agregar protecciones para canales -\n- GPIOs analogicos o digitales?"
-		(exclude_from_sim no)
-		(at 323.85 130.302 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "4f1a8eab-7f4f-4ed5-a801-cc9eeb82db1c")
-	)
 	(text "El electrodo del bias debe pasar por el seguidor?"
 		(exclude_from_sim no)
 		(at 256.794 23.114 0)

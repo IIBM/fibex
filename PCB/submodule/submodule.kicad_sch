@@ -191,338 +191,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Connector_Generic:Conn_01x08"
-			(pin_names
-				(offset 1.016)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "J"
-				(at 0 10.16 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "Conn_01x08"
-				(at 0 -12.7 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "Generic connector, single row, 01x08, script generated (kicad-library-utils/schlib/autogen/connector/)"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "connector"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_fp_filters" "Connector*:*_1x??_*"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "Conn_01x08_1_1"
-				(rectangle
-					(start -1.27 8.89)
-					(end 1.27 -11.43)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(rectangle
-					(start -1.27 7.747)
-					(end 0 7.493)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start -1.27 5.207)
-					(end 0 4.953)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start -1.27 2.667)
-					(end 0 2.413)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start -1.27 0.127)
-					(end 0 -0.127)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start -1.27 -2.413)
-					(end 0 -2.667)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start -1.27 -4.953)
-					(end 0 -5.207)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start -1.27 -7.493)
-					(end 0 -7.747)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start -1.27 -10.033)
-					(end 0 -10.287)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin passive line
-					(at -5.08 7.62 0)
-					(length 3.81)
-					(name "Pin_1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -5.08 5.08 0)
-					(length 3.81)
-					(name "Pin_2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -5.08 2.54 0)
-					(length 3.81)
-					(name "Pin_3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -5.08 0 0)
-					(length 3.81)
-					(name "Pin_4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -5.08 -2.54 0)
-					(length 3.81)
-					(name "Pin_5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -5.08 -5.08 0)
-					(length 3.81)
-					(name "Pin_6"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "6"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -5.08 -7.62 0)
-					(length 3.81)
-					(name "Pin_7"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "7"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -5.08 -10.16 0)
-					(length 3.81)
-					(name "Pin_8"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "8"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Connector_Generic:Conn_01x10"
 			(pin_names
 				(offset 1.016)
@@ -4430,16 +4098,6 @@
 	)
 	(wire
 		(pts
-			(xy 193.04 78.74) (xy 191.77 78.74)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "17374d0d-b050-432c-8ae6-5c3f5e48c5f5")
-	)
-	(wire
-		(pts
 			(xy 50.8 31.75) (xy 52.07 31.75)
 		)
 		(stroke
@@ -4550,16 +4208,6 @@
 	)
 	(wire
 		(pts
-			(xy 210.82 77.47) (xy 210.82 78.74)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "23decfb5-5eb9-4445-90a3-98561d1ed8ab")
-	)
-	(wire
-		(pts
 			(xy 156.21 31.75) (xy 156.21 26.67)
 		)
 		(stroke
@@ -4627,16 +4275,6 @@
 			(type default)
 		)
 		(uuid "2a9742e2-daa3-4017-aa35-8f8c797356ac")
-	)
-	(wire
-		(pts
-			(xy 198.12 77.47) (xy 198.12 86.36)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2af6c3d6-b0a9-4824-a9c3-26bbf06e937d")
 	)
 	(wire
 		(pts
@@ -4730,6 +4368,16 @@
 	)
 	(wire
 		(pts
+			(xy 195.58 58.42) (xy 195.58 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "348c826a-9651-44ea-a2cb-cff389643b7d")
+	)
+	(wire
+		(pts
 			(xy 129.54 109.22) (xy 149.86 109.22)
 		)
 		(stroke
@@ -4790,6 +4438,16 @@
 	)
 	(wire
 		(pts
+			(xy 200.66 78.74) (xy 200.66 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "40a8d7ea-7d73-4f75-89e9-e29d2fe33360")
+	)
+	(wire
+		(pts
 			(xy 129.54 129.54) (xy 149.86 129.54)
 		)
 		(stroke
@@ -4807,6 +4465,16 @@
 			(type default)
 		)
 		(uuid "47b1a331-8faa-42f0-a05a-e275df6d7afa")
+	)
+	(wire
+		(pts
+			(xy 208.28 78.74) (xy 208.28 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "492b2306-24b2-4f55-a9c4-a681fb6bddd5")
 	)
 	(wire
 		(pts
@@ -4940,6 +4608,16 @@
 	)
 	(wire
 		(pts
+			(xy 201.93 72.39) (xy 200.66 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5e062d5b-4e15-4405-bbb3-1b422f588541")
+	)
+	(wire
+		(pts
 			(xy 129.54 99.06) (xy 149.86 99.06)
 		)
 		(stroke
@@ -4960,16 +4638,6 @@
 	)
 	(wire
 		(pts
-			(xy 208.28 77.47) (xy 208.28 86.36)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6416aed6-dd06-4ec4-96c6-9d5902504139")
-	)
-	(wire
-		(pts
 			(xy 143.51 181.61) (xy 143.51 179.07)
 		)
 		(stroke
@@ -4977,16 +4645,6 @@
 			(type default)
 		)
 		(uuid "642aad00-1e3e-4d40-8506-cb5d1168b64f")
-	)
-	(wire
-		(pts
-			(xy 195.58 77.47) (xy 195.58 86.36)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "64ab86f4-8a8d-4275-b5d7-58be8ebc419b")
 	)
 	(wire
 		(pts
@@ -5247,6 +4905,16 @@
 			(type default)
 		)
 		(uuid "808e5467-fdcf-401e-a326-ed48e29d0f9a")
+	)
+	(wire
+		(pts
+			(xy 195.58 72.39) (xy 195.58 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8570aaca-869d-4a6c-af7f-bfdc8cfe0f32")
 	)
 	(wire
 		(pts
@@ -5560,16 +5228,6 @@
 	)
 	(wire
 		(pts
-			(xy 203.2 77.47) (xy 203.2 86.36)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "aeaf503c-d58b-4481-8fdf-d3b632d84f0d")
-	)
-	(wire
-		(pts
 			(xy 265.43 109.22) (xy 266.7 109.22)
 		)
 		(stroke
@@ -5627,6 +5285,16 @@
 			(type default)
 		)
 		(uuid "b67b7148-2e3a-44d6-9509-cca8594d6461")
+	)
+	(wire
+		(pts
+			(xy 205.74 78.74) (xy 205.74 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b8a2164e-0bb9-4d2e-ba21-ff6dfa2f9fb6")
 	)
 	(wire
 		(pts
@@ -5710,6 +5378,16 @@
 	)
 	(wire
 		(pts
+			(xy 203.2 78.74) (xy 203.2 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c5254424-7ab4-4b7b-a65c-16fceb0d1aae")
+	)
+	(wire
+		(pts
 			(xy 115.57 181.61) (xy 115.57 179.07)
 		)
 		(stroke
@@ -5790,6 +5468,16 @@
 	)
 	(wire
 		(pts
+			(xy 198.12 58.42) (xy 198.12 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cb775e9c-d23a-4d9e-9e27-85f185a635cf")
+	)
+	(wire
+		(pts
 			(xy 161.29 182.88) (xy 161.29 179.07)
 		)
 		(stroke
@@ -5810,13 +5498,13 @@
 	)
 	(wire
 		(pts
-			(xy 200.66 77.47) (xy 200.66 86.36)
+			(xy 200.66 58.42) (xy 200.66 59.69)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "d134cc60-c5fe-49e7-b41f-88803ea770e7")
+		(uuid "d02787f1-0a95-4a45-ae15-f4f785e45ccd")
 	)
 	(wire
 		(pts
@@ -5837,16 +5525,6 @@
 			(type default)
 		)
 		(uuid "d4c34727-7983-40bf-9d61-8c621d617fb9")
-	)
-	(wire
-		(pts
-			(xy 205.74 77.47) (xy 205.74 86.36)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d76c8d04-42b1-440c-8082-c67c41aee371")
 	)
 	(bus
 		(pts
@@ -5917,16 +5595,6 @@
 			(type default)
 		)
 		(uuid "e2665344-44c7-4be4-a999-1d7603c316a8")
-	)
-	(wire
-		(pts
-			(xy 193.04 77.47) (xy 193.04 78.74)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e4ccc879-07da-4af3-966c-cdf830410825")
 	)
 	(wire
 		(pts
@@ -6030,6 +5698,16 @@
 	)
 	(wire
 		(pts
+			(xy 198.12 72.39) (xy 198.12 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f2702198-b33b-4cf1-af27-1260fa5ce9bc")
+	)
+	(wire
+		(pts
 			(xy 104.14 26.67) (xy 104.14 25.4)
 		)
 		(stroke
@@ -6037,6 +5715,16 @@
 			(type default)
 		)
 		(uuid "f3359e4a-ac87-4105-80e6-df82783ac9cc")
+	)
+	(wire
+		(pts
+			(xy 191.77 72.39) (xy 193.04 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f8a9d7ef-965f-4efe-b61f-1de7daa51ed7")
 	)
 	(bus
 		(pts
@@ -6088,6 +5776,16 @@
 		)
 		(uuid "fbbf9f26-1ea8-49c6-9abb-22fbb4542e3a")
 	)
+	(wire
+		(pts
+			(xy 193.04 58.42) (xy 193.04 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ff2606e2-63ef-422c-ad79-1c30249bb5c4")
+	)
 	(label "CH_IN_P3"
 		(at 110.49 181.61 270)
 		(effects
@@ -6117,6 +5815,16 @@
 			(justify left bottom)
 		)
 		(uuid "0ccabd93-9a61-40d5-9057-70eb1416f937")
+	)
+	(label "GPIO3"
+		(at 205.74 78.74 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "1491cf85-6aab-48cc-b637-9cae225dcbed")
 	)
 	(label "BIAS_SHD"
 		(at 67.31 74.93 0)
@@ -6308,6 +6016,16 @@
 		)
 		(uuid "3edc9101-895a-462d-894a-2d4df3d64686")
 	)
+	(label "GPIO2"
+		(at 195.58 58.42 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "40eeac2d-4d12-4290-8475-632b874d855b")
+	)
 	(label "BIAS_SHD"
 		(at 67.31 170.18 0)
 		(effects
@@ -6438,6 +6156,16 @@
 		)
 		(uuid "7490def3-7c13-443b-a2c9-011420fe72be")
 	)
+	(label "GPIO3"
+		(at 198.12 58.42 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "75b5b8c6-c7b2-4084-a14d-6d0bff28d0f2")
+	)
 	(label "CH_IN_N1"
 		(at 48.26 128.27 180)
 		(effects
@@ -6467,6 +6195,16 @@
 			(justify left bottom)
 		)
 		(uuid "7c6daf79-5ea1-4557-acf3-c5e8dce51fea")
+	)
+	(label "GPIO4"
+		(at 200.66 58.42 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "7d1dc0cb-4d0d-4a0c-a244-0411ba264ec1")
 	)
 	(label "CH_IN_N3"
 		(at 48.26 158.75 180)
@@ -6527,6 +6265,16 @@
 			(justify right bottom)
 		)
 		(uuid "8c109804-9d62-4a0d-af71-22e2baae650d")
+	)
+	(label "GPIO1"
+		(at 200.66 78.74 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "9126151f-acd8-4ed8-8a84-11d9c353773f")
 	)
 	(label "CH_IN_P4"
 		(at 48.26 111.76 180)
@@ -6608,6 +6356,16 @@
 		)
 		(uuid "b7fa0564-d907-4abb-9b60-637051ff4f8c")
 	)
+	(label "GPIO4"
+		(at 208.28 78.74 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "b9ceccc6-fb7e-4858-b776-147b051d595e")
+	)
 	(label "BIAS_SHD"
 		(at 34.29 118.11 0)
 		(effects
@@ -6647,6 +6405,16 @@
 			(justify left bottom)
 		)
 		(uuid "c7233a73-236f-44db-ae2f-026b0507a40e")
+	)
+	(label "GPIO1"
+		(at 193.04 58.42 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "c73db2f8-3b30-49e8-afa4-c70adccaca9b")
 	)
 	(label "BIAS_SHD"
 		(at 34.29 90.17 0)
@@ -6798,6 +6566,16 @@
 		)
 		(uuid "e4c24d0a-94d0-4fc8-b66f-6988ecee6273")
 	)
+	(label "GPIO2"
+		(at 203.2 78.74 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "ea03a581-5c74-49c1-8198-c68c88d7b5a7")
+	)
 	(label "CH_IN_P1"
 		(at 105.41 181.61 270)
 		(effects
@@ -6870,7 +6648,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "0683e39e-c8ea-4cff-a06d-218bf4f43686")
-		(property "Reference" "J22"
+		(property "Reference" "J13"
 			(at 69.342 134.366 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6935,7 +6713,7 @@
 		(instances
 			(project "submodule"
 				(path "/94d66193-1070-4f09-99d4-9d3e064fcff0"
-					(reference "J22")
+					(reference "J13")
 					(unit 1)
 				)
 			)
@@ -6952,7 +6730,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "076f3e35-4341-4d42-a41e-5c6355a38288")
-		(property "Reference" "#PWR017"
+		(property "Reference" "#PWR016"
 			(at 248.92 96.52 0)
 			(hide yes)
 			(show_name no)
@@ -7012,7 +6790,7 @@
 		(instances
 			(project "submodule"
 				(path "/94d66193-1070-4f09-99d4-9d3e064fcff0"
-					(reference "#PWR017")
+					(reference "#PWR016")
 					(unit 1)
 				)
 			)
@@ -7030,7 +6808,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "0935d927-6a90-4588-9621-6153172f3ebe")
-		(property "Reference" "J23"
+		(property "Reference" "J14"
 			(at 69.342 149.606 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7095,7 +6873,7 @@
 		(instances
 			(project "submodule"
 				(path "/94d66193-1070-4f09-99d4-9d3e064fcff0"
-					(reference "J23")
+					(reference "J14")
 					(unit 1)
 				)
 			)
@@ -7112,7 +6890,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "0e8a6ab5-baa1-4376-8d9a-6cb0724601c3")
-		(property "Reference" "J17"
+		(property "Reference" "J6"
 			(at 32.258 147.066 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7177,7 +6955,7 @@
 		(instances
 			(project "submodule"
 				(path "/94d66193-1070-4f09-99d4-9d3e064fcff0"
-					(reference "J17")
+					(reference "J6")
 					(unit 1)
 				)
 			)
@@ -7195,7 +6973,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "10fea7a5-556e-4322-8d3d-66a8fd149d26")
-		(property "Reference" "J25"
+		(property "Reference" "J16"
 			(at 69.342 180.086 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7260,7 +7038,7 @@
 		(instances
 			(project "submodule"
 				(path "/94d66193-1070-4f09-99d4-9d3e064fcff0"
-					(reference "J25")
+					(reference "J16")
 					(unit 1)
 				)
 			)
@@ -7513,7 +7291,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "1798d782-42b2-4af2-b284-3d65610fa369")
-		(property "Reference" "J15"
+		(property "Reference" "J23"
 			(at 258.826 87.884 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7533,7 +7311,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_PinHeader_1.27mm:PinHeader_2x07_P1.27mm_Vertical"
+		(property "Footprint" "Connector_JST:JST_PHD_B14B-PHDSS_2x07_P2.00mm_Vertical"
 			(at 257.81 101.6 0)
 			(hide yes)
 			(show_name no)
@@ -7611,7 +7389,7 @@
 		(instances
 			(project "submodule"
 				(path "/94d66193-1070-4f09-99d4-9d3e064fcff0"
-					(reference "J15")
+					(reference "J23")
 					(unit 1)
 				)
 			)
@@ -7629,7 +7407,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "18061d57-bbcc-41bf-9a22-bbb9667255f9")
-		(property "Reference" "J9"
+		(property "Reference" "J12"
 			(at 69.342 115.316 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7694,7 +7472,7 @@
 		(instances
 			(project "submodule"
 				(path "/94d66193-1070-4f09-99d4-9d3e064fcff0"
-					(reference "J9")
+					(reference "J12")
 					(unit 1)
 				)
 			)
@@ -7961,7 +7739,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "342aae18-9ba0-474e-99bc-91e9bc8346c8")
-		(property "Reference" "#PWR011"
+		(property "Reference" "#PWR08"
 			(at 140.97 54.61 0)
 			(hide yes)
 			(show_name no)
@@ -8022,7 +7800,7 @@
 		(instances
 			(project "submodule"
 				(path "/94d66193-1070-4f09-99d4-9d3e064fcff0"
-					(reference "#PWR011")
+					(reference "#PWR08")
 					(unit 1)
 				)
 			)
@@ -8039,7 +7817,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "3757c735-ab2f-4136-aaba-f76e31e47137")
-		(property "Reference" "#PWR02"
+		(property "Reference" "#PWR01"
 			(at 24.13 29.21 0)
 			(hide yes)
 			(show_name no)
@@ -8099,7 +7877,7 @@
 		(instances
 			(project "submodule"
 				(path "/94d66193-1070-4f09-99d4-9d3e064fcff0"
-					(reference "#PWR02")
+					(reference "#PWR01")
 					(unit 1)
 				)
 			)
@@ -8207,7 +7985,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "3ae2a737-a8f3-4eaf-984b-2c9bdbb83b81")
-		(property "Reference" "J5"
+		(property "Reference" "J4"
 			(at 32.258 115.316 0)
 			(hide yes)
 			(show_name no)
@@ -8273,7 +8051,7 @@
 		(instances
 			(project "submodule"
 				(path "/94d66193-1070-4f09-99d4-9d3e064fcff0"
-					(reference "J5")
+					(reference "J4")
 					(unit 1)
 				)
 			)
@@ -8290,7 +8068,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "3afb8b9f-93d6-446c-b697-193500420010")
-		(property "Reference" "J4"
+		(property "Reference" "J3"
 			(at 32.258 100.076 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8355,7 +8133,7 @@
 		(instances
 			(project "submodule"
 				(path "/94d66193-1070-4f09-99d4-9d3e064fcff0"
-					(reference "J4")
+					(reference "J3")
 					(unit 1)
 				)
 			)
@@ -8372,7 +8150,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "3f5196ee-c28a-4e64-8459-ad88de924e1f")
-		(property "Reference" "J21"
+		(property "Reference" "J8"
 			(at 32.258 177.546 0)
 			(hide yes)
 			(show_name no)
@@ -8438,7 +8216,7 @@
 		(instances
 			(project "submodule"
 				(path "/94d66193-1070-4f09-99d4-9d3e064fcff0"
-					(reference "J21")
+					(reference "J8")
 					(unit 1)
 				)
 			)
@@ -8532,7 +8310,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "4afe1104-eb54-4a1d-af82-c58af514adb1")
-		(property "Reference" "#FLG02"
+		(property "Reference" "#FLG07"
 			(at 265.43 27.305 0)
 			(hide yes)
 			(show_name no)
@@ -8592,7 +8370,7 @@
 		(instances
 			(project "submodule"
 				(path "/94d66193-1070-4f09-99d4-9d3e064fcff0"
-					(reference "#FLG02")
+					(reference "#FLG07")
 					(unit 1)
 				)
 			)
@@ -8610,7 +8388,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4b7866ed-22e1-43b1-a86c-7efb4bd85cfa")
-		(property "Reference" "L1"
+		(property "Reference" "L3"
 			(at 250.19 24.13 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8672,7 +8450,7 @@
 		(instances
 			(project "submodule"
 				(path "/94d66193-1070-4f09-99d4-9d3e064fcff0"
-					(reference "L1")
+					(reference "L3")
 					(unit 1)
 				)
 			)
@@ -8689,7 +8467,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "53995fab-1d76-484c-8290-569d7ee22680")
-		(property "Reference" "#PWR010"
+		(property "Reference" "#PWR06"
 			(at 121.92 29.21 0)
 			(hide yes)
 			(show_name no)
@@ -8749,7 +8527,7 @@
 		(instances
 			(project "submodule"
 				(path "/94d66193-1070-4f09-99d4-9d3e064fcff0"
-					(reference "#PWR010")
+					(reference "#PWR06")
 					(unit 1)
 				)
 			)
@@ -8766,7 +8544,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "54424be2-d46b-46e7-ba4b-0057da003d13")
-		(property "Reference" "J1"
+		(property "Reference" "J19"
 			(at 117.856 168.656 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8858,7 +8636,7 @@
 		(instances
 			(project "submodule"
 				(path "/94d66193-1070-4f09-99d4-9d3e064fcff0"
-					(reference "J1")
+					(reference "J19")
 					(unit 1)
 				)
 			)
@@ -8876,7 +8654,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5581ff0c-942a-49d8-8bde-b2328946328d")
-		(property "Reference" "#FLG07"
+		(property "Reference" "#FLG06"
 			(at 234.95 66.675 0)
 			(hide yes)
 			(show_name no)
@@ -8936,7 +8714,7 @@
 		(instances
 			(project "submodule"
 				(path "/94d66193-1070-4f09-99d4-9d3e064fcff0"
-					(reference "#FLG07")
+					(reference "#FLG06")
 					(unit 1)
 				)
 			)
@@ -8953,7 +8731,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "5a25c294-0646-467c-b52c-4a8919939df6")
-		(property "Reference" "L2"
+		(property "Reference" "L1"
 			(at 36.83 20.828 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9015,7 +8793,7 @@
 		(instances
 			(project "submodule"
 				(path "/94d66193-1070-4f09-99d4-9d3e064fcff0"
-					(reference "L2")
+					(reference "L1")
 					(unit 1)
 				)
 			)
@@ -9114,7 +8892,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "68c3c20c-dc80-411c-9681-8683d648563b")
-		(property "Reference" "#FLG04"
+		(property "Reference" "#FLG02"
 			(at 95.25 23.495 0)
 			(hide yes)
 			(show_name no)
@@ -9174,7 +8952,7 @@
 		(instances
 			(project "submodule"
 				(path "/94d66193-1070-4f09-99d4-9d3e064fcff0"
-					(reference "#FLG04")
+					(reference "#FLG02")
 					(unit 1)
 				)
 			)
@@ -9192,7 +8970,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6db36581-1e0a-4446-9645-95ba9699035a")
-		(property "Reference" "#FLG05"
+		(property "Reference" "#FLG03"
 			(at 156.21 23.495 0)
 			(hide yes)
 			(show_name no)
@@ -9252,7 +9030,7 @@
 		(instances
 			(project "submodule"
 				(path "/94d66193-1070-4f09-99d4-9d3e064fcff0"
-					(reference "#FLG05")
+					(reference "#FLG03")
 					(unit 1)
 				)
 			)
@@ -9350,7 +9128,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "7610035e-8002-4d6b-a2cf-2cfa251462fe")
-		(property "Reference" "J3"
+		(property "Reference" "J2"
 			(at 32.258 84.836 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9415,7 +9193,7 @@
 		(instances
 			(project "submodule"
 				(path "/94d66193-1070-4f09-99d4-9d3e064fcff0"
-					(reference "J3")
+					(reference "J2")
 					(unit 1)
 				)
 			)
@@ -9432,7 +9210,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "7616e936-8cc7-4afb-9f8b-93ac59906998")
-		(property "Reference" "#PWR07"
+		(property "Reference" "#PWR09"
 			(at 163.83 189.23 0)
 			(hide yes)
 			(show_name no)
@@ -9493,7 +9271,7 @@
 		(instances
 			(project "submodule"
 				(path "/94d66193-1070-4f09-99d4-9d3e064fcff0"
-					(reference "#PWR07")
+					(reference "#PWR09")
 					(unit 1)
 				)
 			)
@@ -9511,7 +9289,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "76f8fa2d-f2cb-4572-96f9-06555fe78c21")
-		(property "Reference" "#PWR08"
+		(property "Reference" "#PWR04"
 			(at 104.14 29.21 0)
 			(hide yes)
 			(show_name no)
@@ -9571,7 +9349,7 @@
 		(instances
 			(project "submodule"
 				(path "/94d66193-1070-4f09-99d4-9d3e064fcff0"
-					(reference "#PWR08")
+					(reference "#PWR04")
 					(unit 1)
 				)
 			)
@@ -9669,7 +9447,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "7e61d422-cf4d-4393-89a1-d7666d13e214")
-		(property "Reference" "#FLG01"
+		(property "Reference" "#FLG05"
 			(at 234.95 27.305 0)
 			(hide yes)
 			(show_name no)
@@ -9729,7 +9507,7 @@
 		(instances
 			(project "submodule"
 				(path "/94d66193-1070-4f09-99d4-9d3e064fcff0"
-					(reference "#FLG01")
+					(reference "#FLG05")
 					(unit 1)
 				)
 			)
@@ -9747,7 +9525,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8095997b-fa04-4aa0-98ed-ff66dbe97902")
-		(property "Reference" "#PWR015"
+		(property "Reference" "#PWR013"
 			(at 212.09 29.21 0)
 			(hide yes)
 			(show_name no)
@@ -9807,7 +9585,7 @@
 		(instances
 			(project "submodule"
 				(path "/94d66193-1070-4f09-99d4-9d3e064fcff0"
-					(reference "#PWR015")
+					(reference "#PWR013")
 					(unit 1)
 				)
 			)
@@ -9903,7 +9681,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "847aaac9-15a7-49eb-a089-289b91b64117")
-		(property "Reference" "#PWR05"
+		(property "Reference" "#PWR02"
 			(at 43.18 44.45 0)
 			(hide yes)
 			(show_name no)
@@ -9964,7 +9742,7 @@
 		(instances
 			(project "submodule"
 				(path "/94d66193-1070-4f09-99d4-9d3e064fcff0"
-					(reference "#PWR05")
+					(reference "#PWR02")
 					(unit 1)
 				)
 			)
@@ -9981,7 +9759,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "8670597c-f79c-4de3-b1a0-389fcbec50af")
-		(property "Reference" "#PWR014"
+		(property "Reference" "#PWR011"
 			(at 200.66 46.99 0)
 			(hide yes)
 			(show_name no)
@@ -10042,7 +9820,7 @@
 		(instances
 			(project "submodule"
 				(path "/94d66193-1070-4f09-99d4-9d3e064fcff0"
-					(reference "#PWR014")
+					(reference "#PWR011")
 					(unit 1)
 				)
 			)
@@ -10060,7 +9838,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "91a296c9-2802-496e-8216-a51eb18eb3ea")
-		(property "Reference" "#FLG03"
+		(property "Reference" "#FLG01"
 			(at 50.8 23.495 0)
 			(hide yes)
 			(show_name no)
@@ -10120,7 +9898,7 @@
 		(instances
 			(project "submodule"
 				(path "/94d66193-1070-4f09-99d4-9d3e064fcff0"
-					(reference "#FLG03")
+					(reference "#FLG01")
 					(unit 1)
 				)
 			)
@@ -10138,7 +9916,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "922cebc3-65a3-4e3b-9203-04bfa7f1d1a0")
-		(property "Reference" "J8"
+		(property "Reference" "J11"
 			(at 69.342 100.076 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10203,7 +9981,7 @@
 		(instances
 			(project "submodule"
 				(path "/94d66193-1070-4f09-99d4-9d3e064fcff0"
-					(reference "J8")
+					(reference "J11")
 					(unit 1)
 				)
 			)
@@ -10220,7 +9998,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "9c8388e7-453e-4fd9-8148-bba95573a58d")
-		(property "Reference" "J18"
+		(property "Reference" "J7"
 			(at 32.258 162.306 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10285,7 +10063,7 @@
 		(instances
 			(project "submodule"
 				(path "/94d66193-1070-4f09-99d4-9d3e064fcff0"
-					(reference "J18")
+					(reference "J7")
 					(unit 1)
 				)
 			)
@@ -10303,7 +10081,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a669beda-8d57-407c-aa2b-e507b3ced298")
-		(property "Reference" "#FLG06"
+		(property "Reference" "#FLG04"
 			(at 200.66 23.495 0)
 			(hide yes)
 			(show_name no)
@@ -10363,15 +10141,15 @@
 		(instances
 			(project "submodule"
 				(path "/94d66193-1070-4f09-99d4-9d3e064fcff0"
-					(reference "#FLG06")
+					(reference "#FLG04")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "Connector_Generic:Conn_01x08")
-		(at 200.66 72.39 90)
+		(lib_id "Connector_Generic:Conn_02x04_Odd_Even")
+		(at 195.58 67.31 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -10380,8 +10158,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "a898e709-57d5-40f5-9961-381f712d710a")
-		(property "Reference" "J13"
-			(at 201.93 67.056 90)
+		(property "Reference" "J21"
+			(at 204.978 66.802 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10391,7 +10169,7 @@
 			)
 		)
 		(property "Value" "GPIOs"
-			(at 201.93 69.596 90)
+			(at 204.978 64.77 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10400,8 +10178,8 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_PinHeader_1.27mm:PinHeader_1x08_P1.27mm_Vertical"
-			(at 200.66 72.39 0)
+		(property "Footprint" "Connector_PinHeader_1.27mm:PinHeader_2x04_P1.27mm_Vertical"
+			(at 195.58 67.31 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10412,7 +10190,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 200.66 72.39 0)
+			(at 195.58 67.31 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10422,8 +10200,8 @@
 				)
 			)
 		)
-		(property "Description" "Generic connector, single row, 01x08, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 200.66 72.39 0)
+		(property "Description" "Generic connector, double row, 02x04, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 195.58 67.31 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10460,7 +10238,7 @@
 		(instances
 			(project "submodule"
 				(path "/94d66193-1070-4f09-99d4-9d3e064fcff0"
-					(reference "J13")
+					(reference "J21")
 					(unit 1)
 				)
 			)
@@ -10468,7 +10246,7 @@
 	)
 	(symbol
 		(lib_id "power:+3.3V")
-		(at 191.77 78.74 180)
+		(at 191.77 72.39 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -10477,8 +10255,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "b0357551-c4a4-47df-b15d-f8148c2e7461")
-		(property "Reference" "#PWR012"
-			(at 191.77 74.93 0)
+		(property "Reference" "#PWR010"
+			(at 191.77 68.58 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10489,7 +10267,7 @@
 			)
 		)
 		(property "Value" "+3.3V"
-			(at 191.77 82.804 0)
+			(at 191.77 76.454 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10499,7 +10277,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 191.77 78.74 0)
+			(at 191.77 72.39 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10510,7 +10288,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 191.77 78.74 0)
+			(at 191.77 72.39 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10521,7 +10299,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 191.77 78.74 0)
+			(at 191.77 72.39 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10537,7 +10315,7 @@
 		(instances
 			(project "submodule"
 				(path "/94d66193-1070-4f09-99d4-9d3e064fcff0"
-					(reference "#PWR012")
+					(reference "#PWR010")
 					(unit 1)
 				)
 			)
@@ -10631,7 +10409,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "bcfa4295-7a89-4e99-8afd-4e29289c4490")
-		(property "Reference" "#PWR06"
+		(property "Reference" "#PWR03"
 			(at 87.63 105.41 0)
 			(hide yes)
 			(show_name no)
@@ -10692,7 +10470,7 @@
 		(instances
 			(project "submodule"
 				(path "/94d66193-1070-4f09-99d4-9d3e064fcff0"
-					(reference "#PWR06")
+					(reference "#PWR03")
 					(unit 1)
 				)
 			)
@@ -10710,7 +10488,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "bda15a5d-653f-43c1-88e6-3042f5943169")
-		(property "Reference" "J24"
+		(property "Reference" "J15"
 			(at 69.342 164.846 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10775,7 +10553,7 @@
 		(instances
 			(project "submodule"
 				(path "/94d66193-1070-4f09-99d4-9d3e064fcff0"
-					(reference "J24")
+					(reference "J15")
 					(unit 1)
 				)
 			)
@@ -10792,7 +10570,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "cdfdab1c-ba0f-46e0-a6c2-c90f3e58fbca")
-		(property "Reference" "#PWR01"
+		(property "Reference" "#PWR014"
 			(at 234.95 39.37 0)
 			(hide yes)
 			(show_name no)
@@ -10852,7 +10630,7 @@
 		(instances
 			(project "submodule"
 				(path "/94d66193-1070-4f09-99d4-9d3e064fcff0"
-					(reference "#PWR01")
+					(reference "#PWR014")
 					(unit 1)
 				)
 			)
@@ -10869,7 +10647,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "d29c08d4-4320-408a-b59b-74aaf90cf861")
-		(property "Reference" "J10"
+		(property "Reference" "J17"
 			(at 81.788 99.822 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10934,7 +10712,7 @@
 		(instances
 			(project "submodule"
 				(path "/94d66193-1070-4f09-99d4-9d3e064fcff0"
-					(reference "J10")
+					(reference "J17")
 					(unit 1)
 				)
 			)
@@ -10951,7 +10729,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "d5d1872c-c2ce-4867-8069-0d56f88a5908")
-		(property "Reference" "J16"
+		(property "Reference" "J5"
 			(at 32.258 131.826 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11016,7 +10794,7 @@
 		(instances
 			(project "submodule"
 				(path "/94d66193-1070-4f09-99d4-9d3e064fcff0"
-					(reference "J16")
+					(reference "J5")
 					(unit 1)
 				)
 			)
@@ -11033,7 +10811,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "d6469ef0-2962-4908-a837-a4a64c77068b")
-		(property "Reference" "J2"
+		(property "Reference" "J1"
 			(at 32.258 69.596 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11098,7 +10876,7 @@
 		(instances
 			(project "submodule"
 				(path "/94d66193-1070-4f09-99d4-9d3e064fcff0"
-					(reference "J2")
+					(reference "J1")
 					(unit 1)
 				)
 			)
@@ -11183,7 +10961,7 @@
 	)
 	(symbol
 		(lib_id "power:Earth")
-		(at 210.82 78.74 0)
+		(at 201.93 72.39 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -11192,8 +10970,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "df6f3343-0114-48cb-8737-1a50626cfb99")
-		(property "Reference" "#PWR013"
-			(at 210.82 85.09 0)
+		(property "Reference" "#PWR012"
+			(at 201.93 78.74 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11204,7 +10982,7 @@
 			)
 		)
 		(property "Value" "DGND"
-			(at 210.82 82.804 0)
+			(at 201.93 76.454 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11214,7 +10992,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 210.82 78.74 0)
+			(at 201.93 72.39 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11225,7 +11003,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 210.82 78.74 0)
+			(at 201.93 72.39 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11236,7 +11014,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"Earth\""
-			(at 210.82 78.74 0)
+			(at 201.93 72.39 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11252,7 +11030,7 @@
 		(instances
 			(project "submodule"
 				(path "/94d66193-1070-4f09-99d4-9d3e064fcff0"
-					(reference "#PWR013")
+					(reference "#PWR012")
 					(unit 1)
 				)
 			)
@@ -11269,7 +11047,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "e3b5a565-746f-4f12-8b07-9094ad6b7110")
-		(property "Reference" "J12"
+		(property "Reference" "J20"
 			(at 150.876 168.656 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11355,7 +11133,7 @@
 		(instances
 			(project "submodule"
 				(path "/94d66193-1070-4f09-99d4-9d3e064fcff0"
-					(reference "J12")
+					(reference "J20")
 					(unit 1)
 				)
 			)
@@ -11372,7 +11150,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "e7515d48-1d09-46a0-a560-b6b9a8b333ed")
-		(property "Reference" "#PWR03"
+		(property "Reference" "#PWR07"
 			(at 133.35 190.5 0)
 			(hide yes)
 			(show_name no)
@@ -11433,7 +11211,7 @@
 		(instances
 			(project "submodule"
 				(path "/94d66193-1070-4f09-99d4-9d3e064fcff0"
-					(reference "#PWR03")
+					(reference "#PWR07")
 					(unit 1)
 				)
 			)
@@ -11451,7 +11229,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "efba5abc-74e2-43bb-8bd2-78c6e25b7b28")
-		(property "Reference" "J14"
+		(property "Reference" "J22"
 			(at 259.08 63.5 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11471,7 +11249,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_IDC:IDC-Header_2x04_P2.54mm_Vertical"
+		(property "Footprint" "Connector_JST:JST_PHD_B8B-PHDSS_2x04_P2.00mm_Vertical"
 			(at 257.81 72.39 0)
 			(hide yes)
 			(show_name no)
@@ -11531,7 +11309,7 @@
 		(instances
 			(project "submodule"
 				(path "/94d66193-1070-4f09-99d4-9d3e064fcff0"
-					(reference "J14")
+					(reference "J22")
 					(unit 1)
 				)
 			)
@@ -11548,7 +11326,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "f1d075be-692c-45ad-903a-2243bf8507bf")
-		(property "Reference" "L3"
+		(property "Reference" "L2"
 			(at 134.62 20.828 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11610,7 +11388,7 @@
 		(instances
 			(project "submodule"
 				(path "/94d66193-1070-4f09-99d4-9d3e064fcff0"
-					(reference "L3")
+					(reference "L2")
 					(unit 1)
 				)
 			)
@@ -11708,7 +11486,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "f360d0e5-1ccc-4ca0-92f7-fc68e18102e5")
-		(property "Reference" "#PWR018"
+		(property "Reference" "#PWR017"
 			(at 251.46 109.22 0)
 			(hide yes)
 			(show_name no)
@@ -11768,7 +11546,7 @@
 		(instances
 			(project "submodule"
 				(path "/94d66193-1070-4f09-99d4-9d3e064fcff0"
-					(reference "#PWR018")
+					(reference "#PWR017")
 					(unit 1)
 				)
 			)
@@ -11785,7 +11563,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "f57bcae6-48c8-4726-a268-4a908d097996")
-		(property "Reference" "J11"
+		(property "Reference" "J18"
 			(at 81.788 115.062 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11850,7 +11628,7 @@
 		(instances
 			(project "submodule"
 				(path "/94d66193-1070-4f09-99d4-9d3e064fcff0"
-					(reference "J11")
+					(reference "J18")
 					(unit 1)
 				)
 			)
@@ -11868,7 +11646,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "f5c36c5a-4de8-43e2-80ce-79a61fa62518")
-		(property "Reference" "J6"
+		(property "Reference" "J9"
 			(at 69.342 69.596 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11933,7 +11711,7 @@
 		(instances
 			(project "submodule"
 				(path "/94d66193-1070-4f09-99d4-9d3e064fcff0"
-					(reference "J6")
+					(reference "J9")
 					(unit 1)
 				)
 			)
@@ -11951,7 +11729,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "f8119d23-a91e-4e18-933c-47cf6a8c36f2")
-		(property "Reference" "J7"
+		(property "Reference" "J10"
 			(at 69.342 84.836 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12016,7 +11794,7 @@
 		(instances
 			(project "submodule"
 				(path "/94d66193-1070-4f09-99d4-9d3e064fcff0"
-					(reference "J7")
+					(reference "J10")
 					(unit 1)
 				)
 			)
@@ -12033,7 +11811,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "fa9e738f-f3a5-46dd-aa74-d56234ab76de")
-		(property "Reference" "#PWR04"
+		(property "Reference" "#PWR018"
 			(at 265.43 39.37 0)
 			(hide yes)
 			(show_name no)
@@ -12094,7 +11872,7 @@
 		(instances
 			(project "submodule"
 				(path "/94d66193-1070-4f09-99d4-9d3e064fcff0"
-					(reference "#PWR04")
+					(reference "#PWR018")
 					(unit 1)
 				)
 			)
@@ -12111,7 +11889,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "fca48a23-5c94-4fc1-ada8-f3941fe9870b")
-		(property "Reference" "#PWR09"
+		(property "Reference" "#PWR05"
 			(at 104.14 44.45 0)
 			(hide yes)
 			(show_name no)
@@ -12172,7 +11950,7 @@
 		(instances
 			(project "submodule"
 				(path "/94d66193-1070-4f09-99d4-9d3e064fcff0"
-					(reference "#PWR09")
+					(reference "#PWR05")
 					(unit 1)
 				)
 			)
@@ -12189,7 +11967,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "ff9ca3df-e040-4dd3-8bcb-30bf03189aeb")
-		(property "Reference" "#PWR016"
+		(property "Reference" "#PWR015"
 			(at 245.11 72.39 0)
 			(hide yes)
 			(show_name no)
@@ -12249,7 +12027,7 @@
 		(instances
 			(project "submodule"
 				(path "/94d66193-1070-4f09-99d4-9d3e064fcff0"
-					(reference "#PWR016")
+					(reference "#PWR015")
 					(unit 1)
 				)
 			)
